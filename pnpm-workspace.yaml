@@ -3,7 +3,7 @@ packages:
   - lib/*
   - lib/integrations/*
   - scripts
-  - raksha-ai
+  - klaimKavach
 
 autoInstallPeers: false
 

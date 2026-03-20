@@ -5,10 +5,10 @@ packages:
   "zod": "For client-side form schema validation"
 
 images:
-  - path: "artifacts/raksha-ai/public/images/logo.png"
+  - path: "artifacts/klaimKavach/public/images/logo.png"
     description: "Minimal geometric shield logo mark in glowing cyan on transparent background, premium fintech aesthetic"
     aspect_ratio: "1:1"
-  - path: "artifacts/raksha-ai/public/images/hero-bg.png"
+  - path: "artifacts/klaimKavach/public/images/hero-bg.png"
     description: "Abstract dark background with deep indigo and purple gradient mesh, subtle glassmorphism geometric shapes floating, high-end tech aesthetic"
     aspect_ratio: "16:9"
 
