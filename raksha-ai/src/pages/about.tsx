@@ -12,7 +12,7 @@ const fadeUp = (delay = 0) => ({
 });
 
 const team = [
-  { name: "Prakhar Kumar", role: "Co-founder & CEO", initials: "PI", bio: "Ex-Flipkart. Built logistics for 10M+ deliveries before founding Raksha." },
+  { name: "Prakhar Kumar", role: "Co-founder & CEO", initials: "PI", bio: "Ex-Flipkart. Built logistics for 10M+ deliveries before founding KlaimKavach." },
   { name: "Eklavya Verma", role: "Co-founder & CTO", initials: "RM", bio: "Ex-Google. ML engineer who trained fraud detection models at scale." },
   { name: "Prashant Gupta", role: "Head of Product", initials: "AS", bio: "Former gig worker turned product designer. Knows the problem first-hand." },
   { name: "Suryakant Dwivedi", role: "Head of Insurance", initials: "KR", bio: "IRDA-licensed actuary with 12 years in insurtech and microinsurance." },
@@ -41,7 +41,7 @@ const milestones = [
   { year: "2023", event: "Launched pilot with 500 Swiggy partners in Bengaluru. 98% claim approval rate." },
   { year: "2024", event: "Expanded to 12 cities. Crossed ₹1 Crore in claims paid out." },
   { year: "2025", event: "50,000 active policyholders. Launched weather disruption auto-detection." },
-  { year: "2026", event: "Raksha.AI v2.0 — AI risk scoring, fraud engine, and instant payouts go live." },
+  { year: "2026", event: "KlaimKavach v2.0 — AI risk scoring, fraud engine, and instant payouts go live." },
 ];
 
 export default function About() {
@@ -49,8 +49,8 @@ export default function About() {
   return (
     <div className="bg-background text-foreground">
       <Helmet>
-        <title>About Us | Raksha.AI</title>
-        <meta name="description" content="Learn more about the team and values behind Raksha.AI." />
+        <title>About Us | KlaimKavach</title>
+        <meta name="description" content="Learn more about the team and values behind KlaimKavach." />
       </Helmet>
 
       {/* Hero */}
@@ -65,10 +65,10 @@ export default function About() {
               <br /><span className="text-white/30">them first.</span>
             </motion.h1>
             <motion.p {...fadeUp(0.12)} className="text-sm text-muted-foreground leading-relaxed mb-6">
-              Raksha.AI was founded after our team spent six months working as gig delivery riders in Bengaluru. We saw first-hand how a single day of heavy rain could wipe out a week's earnings — with no safety net in sight.
+              KlaimKavach was founded after our team spent six months working as gig delivery riders in Bengaluru. We saw first-hand how a single day of heavy rain could wipe out a week's earnings — with no safety net in sight.
             </motion.p>
             <motion.p {...fadeUp(0.16)} className="text-sm text-muted-foreground leading-relaxed">
-              We built Raksha.AI to change that. Smart insurance, instant payouts, and zero paperwork — because gig workers deserve protection that actually works.
+              We built KlaimKavach to change that. Smart insurance, instant payouts, and zero paperwork — because gig workers deserve protection that actually works.
             </motion.p>
           </div>
 
@@ -142,7 +142,7 @@ export default function About() {
         <div className="max-w-5xl mx-auto">
           <motion.div {...fadeUp()} className="mb-12">
             <p className="text-xs uppercase tracking-widest text-white/30 font-medium mb-3">Team</p>
-            <h2 className="text-3xl font-bold tracking-tight text-foreground">The people behind Raksha.</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-foreground">The people behind KlaimKavach.</h2>
           </motion.div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
             {team.map((member, i) => (

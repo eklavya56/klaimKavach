@@ -51,7 +51,7 @@ export default function Register() {
         onSuccess: () => {
           login(data.name); // Store login state
           toast({
-            title: "Welcome to Raksha.AI",
+            title: "Welcome to KlaimKavach",
             description: "Your account has been secured.",
           });
           setLocation("/dashboard");
@@ -70,7 +70,7 @@ export default function Register() {
   return (
     <div className="flex min-h-screen w-full">
       <Helmet>
-        <title>Sign Up | Raksha.AI</title>
+        <title>Sign Up | KlaimKavach</title>
       </Helmet>
       {/* Left Panel — Branding */}
       <motion.div
@@ -91,10 +91,8 @@ export default function Register() {
 
         {/* Top — Logo */}
         <div className="relative z-10 flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-white flex items-center justify-center">
-            <Shield className="w-5 h-5 text-black" />
-          </div>
-          <span className="text-white font-semibold text-lg tracking-tight">Raksha.AI</span>
+          <img src="/logo.jpg" alt="KlaimKavach" className="w-9 h-9 rounded-lg object-contain" />
+          <span className="text-white font-semibold text-lg tracking-tight">KlaimKavach</span>
         </div>
 
         {/* Middle — Headline + Features */}
@@ -160,10 +158,8 @@ export default function Register() {
       >
         {/* Mobile logo */}
         <div className="flex items-center gap-2 mb-10 lg:hidden">
-          <div className="w-8 h-8 rounded-md bg-white flex items-center justify-center">
-            <Shield className="w-4 h-4 text-black" />
-          </div>
-          <span className="font-semibold text-foreground">Raksha.AI</span>
+          <img src="/logo.jpg" alt="KlaimKavach" className="w-8 h-8 rounded-md object-contain" />
+          <span className="font-semibold text-foreground">KlaimKavach</span>
         </div>
 
         <div className="w-full max-w-sm">

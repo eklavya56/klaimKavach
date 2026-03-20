@@ -5,7 +5,7 @@ export function useAuth() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
-    const savedUser = localStorage.getItem("raksha_user");
+    const savedUser = localStorage.getItem("klaimkavach_user");
     if (savedUser) {
       setUser(savedUser);
       setIsAuthenticated(true);
@@ -13,13 +13,13 @@ export function useAuth() {
   }, []);
 
   const login = (name: string) => {
-    localStorage.setItem("raksha_user", name);
+    localStorage.setItem("klaimkavach_user", name);
     setUser(name);
     setIsAuthenticated(true);
   };
 
   const logout = () => {
-    localStorage.removeItem("raksha_user");
+    localStorage.removeItem("klaimkavach_user");
     setUser(null);
     setIsAuthenticated(false);
   };

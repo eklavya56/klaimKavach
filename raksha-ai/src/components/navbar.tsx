@@ -25,10 +25,8 @@ export function Navbar() {
         <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.05] bg-background/80 backdrop-blur-md">
           <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 cursor-pointer">
-              <div className="w-7 h-7 rounded-md bg-white flex items-center justify-center">
-                <Shield className="w-4 h-4 text-black" />
-              </div>
-              <span className="font-semibold text-sm tracking-tight text-foreground">Raksha.AI</span>
+              <img src="/logo.jpg" alt="KlaimKavach" className="w-7 h-7 rounded-md object-contain" />
+              <span className="font-semibold text-sm tracking-tight text-foreground">KlaimKavach</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-6">
@@ -96,10 +94,8 @@ export function Navbar() {
         <header className="sticky top-0 z-50 w-full border-b border-border bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl h-16 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 cursor-pointer">
-              <div className="w-6 h-6 rounded-md bg-primary flex items-center justify-center">
-                <Shield className="w-3.5 h-3.5 text-primary-foreground" />
-              </div>
-              <span className="font-semibold text-sm tracking-tight text-foreground">Raksha.AI</span>
+              <img src="/logo.jpg" alt="KlaimKavach" className="w-6 h-6 rounded-md object-contain" />
+              <span className="font-semibold text-sm tracking-tight text-foreground">KlaimKavach</span>
             </Link>
 
             <nav className="hidden md:flex items-center gap-6">

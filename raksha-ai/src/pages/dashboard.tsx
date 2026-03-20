@@ -64,7 +64,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-8 pb-20 md:pb-0">
       <Helmet>
-        <title>Dashboard | Raksha.AI</title>
+        <title>Dashboard | KlaimKavach</title>
       </Helmet>
       <header className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-border pb-6">
         <div>

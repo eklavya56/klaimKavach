@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <div className="bg-background text-foreground">
       <Helmet>
-        <title>Raksha.AI | Insurance for Gig Workers</title>
+        <title>KlaimKavach | Insurance for Gig Workers</title>
         <meta name="description" content="AI-Powered Insurance for Gig Workers. Instant claims, real-time risk scoring, no paperwork." />
       </Helmet>
 
@@ -101,7 +101,7 @@ export default function Home() {
             {...fadeUp(0.16)}
             className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed"
           >
-            Raksha.AI is smart insurance for delivery riders, cab drivers, and freelancers. Instant claims, real-time risk scoring, no paperwork.
+            KlaimKavach is smart insurance for delivery riders, cab drivers, and freelancers. Instant claims, real-time risk scoring, no paperwork.
           </motion.p>
 
           <motion.div {...fadeUp(0.22)} className="flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="relative z-10">
               <h2 className="text-3xl font-bold tracking-tight mb-4">Ready to get covered?</h2>
               <p className="text-muted-foreground mb-8 max-w-sm mx-auto">
-                Join 50,000+ gig workers across the country who trust Raksha for their protection.
+                Join 50,000+ gig workers across the country who trust KlaimKavach for their protection.
               </p>
               <Link href={isAuthenticated ? "/dashboard" : "/register"}>
                 <motion.div
@@ -278,12 +278,10 @@ export default function Home() {
       <footer className="border-t border-[#1f1f1f] py-8 px-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-md bg-white flex items-center justify-center">
-              <Shield className="w-3.5 h-3.5 text-black" />
-            </div>
-            <span className="font-semibold text-sm text-foreground">Raksha.AI</span>
+            <img src="/logo.jpg" alt="KlaimKavach" className="w-6 h-6 rounded-md object-contain" />
+            <span className="font-semibold text-sm text-foreground">KlaimKavach</span>
           </div>
-          <p className="text-xs text-white/20">© 2026 Raksha.AI. All rights reserved.</p>
+          <p className="text-xs text-white/20">© 2026 KlaimKavach. All rights reserved.</p>
           <div className="flex items-center gap-6 text-xs text-white/30">
             <span className="hover:text-white/50 cursor-pointer transition-colors">Privacy</span>
             <span className="hover:text-white/50 cursor-pointer transition-colors">Terms</span>

@@ -55,8 +55,8 @@ export default function Features() {
   return (
     <div className="bg-background text-foreground">
       <Helmet>
-        <title>Features | Raksha.AI</title>
-        <meta name="description" content="Explore Raksha.AI's features: instant claims, AI risk scoring, and zero paperwork." />
+        <title>Features | KlaimKavach</title>
+        <meta name="description" content="Explore KlaimKavach's features: instant claims, AI risk scoring, and zero paperwork." />
       </Helmet>
 
       {/* Hero */}
@@ -70,7 +70,7 @@ export default function Features() {
             <br /><span className="text-white/30">to stay protected.</span>
           </motion.h1>
           <motion.p {...fadeUp(0.12)} className="text-base text-muted-foreground leading-relaxed">
-            Raksha.AI combines real-time data, machine learning, and instant payments to give gig workers the protection they actually deserve.
+            KlaimKavach combines real-time data, machine learning, and instant payments to give gig workers the protection they actually deserve.
           </motion.p>
         </div>
       </section>

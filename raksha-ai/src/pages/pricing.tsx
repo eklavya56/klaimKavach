@@ -90,7 +90,7 @@ export default function Pricing() {
   return (
     <div className="bg-background text-foreground">
       <Helmet>
-        <title>Pricing | Raksha.AI</title>
+        <title>Pricing | KlaimKavach</title>
         <meta name="description" content="Simple, honest weekly pricing for gig worker insurance." />
       </Helmet>
 
@@ -203,7 +203,7 @@ export default function Pricing() {
       <section className="py-20 px-6">
         <motion.div {...fadeUp()} className="max-w-5xl mx-auto text-center p-12 rounded-2xl border border-[#222] bg-[#111]">
           <h2 className="text-3xl font-bold tracking-tight text-foreground mb-3">Start your free week today.</h2>
-          <p className="text-sm text-muted-foreground mb-8">Join 50,000+ gig workers already covered by Raksha.AI.</p>
+          <p className="text-sm text-muted-foreground mb-8">Join 50,000+ gig workers already covered by KlaimKavach.</p>
           <Link href={isAuthenticated ? "/dashboard" : "/register"}>
             <motion.div
               whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}
