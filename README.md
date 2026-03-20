@@ -1,4 +1,4 @@
-# <img src="" alt="KlaimKavach icon" width="40" /> KlaimKavach – Smart Income Protection for Gig Workers
+# <img src="./klaimKavach/public/logo.jpg" alt="KlaimKavach Logo" width="40" height="40"> KlaimKavach – Smart Income Protection for Gig Workers
 
 > **Real-time AI-powered parametric insurance that protects gig workers from income loss — instantly, intelligently, and fairly.**
 
@@ -58,7 +58,7 @@ KlaimKavach is built as a **real-time, event-driven** system.
 
 ### 📊 Detailed Architecture Flowchart
 
-<img src="./raksha-ai/public/image/KlaimKavach_architecture.png">
+<img src="./klaimKavach/public/images/KlaimKavach_architecture.png" alt="KlaimKavach Architecture">
 
 > *End-to-end flow: from subscription to payout — including AI trigger detection, fraud validation, and trust-based decision routing.*
 
