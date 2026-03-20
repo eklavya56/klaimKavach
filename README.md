@@ -1,4 +1,4 @@
-# 🛡️ KlaimKavach – Smart Income Protection for Gig Workers
+# <img src="" alt="KlaimKavach icon" width="40" /> KlaimKavach – Smart Income Protection for Gig Workers
 
 > **Real-time AI-powered parametric insurance that protects gig workers from income loss — instantly, intelligently, and fairly.**
 
