@@ -56,6 +56,12 @@ KlaimKavach provides a real-time income protection system built on **three intel
 
 KlaimKavach is built as a **real-time, event-driven** system.
 
+### 📊 Detailed Architecture Flowchart
+
+<img src="./raksha-ai/public/image/KlaimKavach_architecture.png">
+
+> *End-to-end flow: from subscription to payout — including AI trigger detection, fraud validation, and trust-based decision routing.*
+
 ### 🔄 System Flow
 
 ```python
@@ -173,14 +179,20 @@ Weekly plans priced at **₹49–₹99**, based on:
 
 ## ⚙️ Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React / Flutter |
-| Backend | Node.js |
-| AI / ML | Python |
-| APIs | Weather API, Traffic API |
-| Database | MongoDB / Firebase |
-| Payments | Razorpay (test mode) |
+| Category | Technology | Purpose |
+|----------|-----------|---------|
+| 💻 Frontend | React.js / Flutter | User interface for delivery partners |
+| 🧠 Backend | Node.js (Express.js) | API handling, system orchestration |
+| 🤖 AI / ML | Python (Scikit-learn) | Risk scoring, disruption detection, fraud detection |
+| 🌧️ Weather API | OpenWeatherMap API | Detect rainfall, temperature disruptions |
+| 🌫️ AQI API | AQICN / OpenWeather Air API | Monitor air quality (AQI triggers) |
+| 🚧 Traffic API | Google Maps / Mapbox API | Detect traffic congestion & road issues |
+| 📍 IP Geolocation | IPinfo / ip-api | Detect location mismatch (anti-spoofing) |
+| 📌 Geocoding | Google Geocoding API | Convert GPS → real-world location |
+| 📱 Device Sensors | GPS, Accelerometer | Movement & behavior validation |
+| 💸 Payments | Razorpay (Test Mode) / Stripe | Simulated instant payouts |
+| 🗄️ Database | MongoDB / Firebase | Store users, claims, risk & trust scores |
+| ☁️ Deployment | Vercel / Render / AWS | Hosting frontend & backend |
 
 ---
 
@@ -227,4 +239,4 @@ Weekly plans priced at **₹49–₹99**, based on:
 
 ---
 
-*Built Bit Benders.*
+*🔧 Built by Bit Benders.*
